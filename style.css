@@ -23,13 +23,20 @@ body {
   align-items: center;
 }
 
-//styles the individual eye
+/* positioning the eyes  */
+.eyes {
+  position: absolute;
+  width: 215px;
+  display: flex;
+  justify-content: space-between;
+}
+/* styles the individual eye */
 .eye {
   background-color: white;
   height: 40px;
   width: 65px;
   margin: 10px;
   border-radius: 100%;
-  border-top: 3px solid hsl(35, 46%, 68%);
-  border-bottom: 2px solid hsl(35, 46%, 68%);
+  border-top: 3px solid hsl(35, 98%, 20%);
+  border-bottom: 2px solid hsl(35, 96%, 18%);
 }
