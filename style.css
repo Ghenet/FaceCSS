@@ -84,3 +84,16 @@ body {
   border-top: none;
   margin-top: 100px;
 }
+
+.mouth {
+  position: absolute;
+  width: 90px;
+  height: 35px;
+  background: white;
+  margin-top: 225px;
+  border-radius: 40px 40px 100% 100%;
+  border: 14px solid hsl(35, 98%, 20%);
+  border-right-width: 1px;
+  border-left-width: 1px;
+  border-top-width: 14px;
+}
