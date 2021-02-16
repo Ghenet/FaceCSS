@@ -17,4 +17,5 @@ body {
   background-color: hsl(35, 74%, 29%);
   height: 340px;
   width: 300px;
+  border-radius: 70% 70% 100% 100%;
 }
