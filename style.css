@@ -39,4 +39,18 @@ body {
   border-radius: 100%;
   border-top: 3px solid hsl(35, 98%, 20%);
   border-bottom: 2px solid hsl(35, 96%, 18%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+/* styles the eye feColorMatrix */
+.eye::before {
+  content: "";
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  background-color: hsl(28, 79%, 13%);
+  border-radius: 100%;
 }
