@@ -45,12 +45,22 @@ body {
   overflow: hidden;
   position: relative;
 }
-/* styles the eye feColorMatrix */
+/* styles the eye iris */
 .eye::before {
   content: "";
   position: absolute;
   width: 41px;
   height: 41px;
   background-color: hsl(28, 79%, 13%);
+  border-radius: 100%;
+  margin: 0 0 5px 10px;
+}
+/* styles the pupil */
+.eye::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: hsl(28, 35%, 80%);
   border-radius: 100%;
 }
