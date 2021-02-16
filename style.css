@@ -18,4 +18,7 @@ body {
   height: 340px;
   width: 300px;
   border-radius: 70% 70% 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
