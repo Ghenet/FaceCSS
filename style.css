@@ -22,3 +22,12 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+//styles the individual eye
+.eye {
+  background-color: white;
+  height: 40px;
+  width: 65px;
+  margin: 10px;
+  border-radius: 100%;
+}
