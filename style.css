@@ -101,7 +101,14 @@ body {
 .ears {
   z-index: -1;
   position: absolute;
-  width: 340px;
+  width: 295px;
   display: flex;
   justify-content: space-between;
+}
+
+.ear {
+  width: 25px;
+  height: 70px;
+  background: red;
+  border-radius: 0 100% 100% 0;
 }
