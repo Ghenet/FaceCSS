@@ -13,3 +13,8 @@ body {
   margin: 0;
   background-color: hsl(200, 50%, 12%);
 }
+.head {
+  background-color: hsl(35, 74%, 29%);
+  height: 100px;
+  width: 100px;
+}
