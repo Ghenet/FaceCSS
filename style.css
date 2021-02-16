@@ -16,7 +16,7 @@ body {
 .head {
   background-color: hsl(35, 74%, 29%);
   height: 340px;
-  width: 300px;
+  width: 250px;
   border-radius: 70% 70% 100% 100%;
   display: flex;
   justify-content: center;
@@ -24,9 +24,10 @@ body {
 }
 
 /* positioning the eyes  */
-.eyes {
+.eyes,
+.brows {
   position: absolute;
-  width: 215px;
+  width: 195px;
   display: flex;
   justify-content: space-between;
 }
@@ -64,4 +65,12 @@ body {
   background-color: hsl(28, 35%, 80%);
   border-radius: 100%;
   margin: 0 0 7px 15px;
+}
+
+.brow {
+  width: 80px;
+  height: 32px;
+  border-top: 20px solid hsl(26, 37%, 12%);
+  border-radius: 40%;
+  margin-bottom: 65px;
 }
