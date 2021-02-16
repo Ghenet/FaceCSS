@@ -30,4 +30,6 @@ body {
   width: 65px;
   margin: 10px;
   border-radius: 100%;
+  border-top: 3px solid hsl(35, 46%, 68%);
+  border-bottom: 2px solid hsl(35, 46%, 68%);
 }
