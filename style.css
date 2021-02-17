@@ -70,7 +70,7 @@ body {
 .brow {
   width: 80px;
   height: 32px;
-  border-top: 20px solid hsl(26, 37%, 12%);
+  border-top: 20px solid hsl(26, 27%, 12%);
   border-radius: 40%;
   margin-bottom: 65px;
 }
@@ -101,7 +101,7 @@ body {
 .ears {
   z-index: -1;
   position: absolute;
-  width: 295px;
+  width: 290px;
   display: flex;
   justify-content: space-between;
 }
@@ -116,4 +116,12 @@ body {
 
 .ear:first-child {
   border-radius: 100% 0 0 100%;
+}
+
+.hair {
+  width: 300px;
+  height: 75px;
+  background-color: hsl(26, 1%, 12%);
+  margin-bottom: 300px;
+  border-radius: 50% 100% 0 0;
 }
